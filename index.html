@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>CatPhotoApp</title>
 </head>
-
 <body>
+    <header>
+        <h1>Very cool cats</h1>
+    </header>
     <main>
         <h1>CatPhotoApp</h1>
-        <section>
+        <div>
             <h2>Cat Photos</h2>
             <!-- TODO: Add link to cat photos -->
-            <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+            <p><b>See more</b> <a target="_blank" href="https://freecatphotoapp.com"><i>cat photos</i></a> in our gallery.</p>
             <a href="https://freecatphotoapp.com"><img
                     src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
                     alt="A cute orange cat lying on its back."></a>
-        </section>
-        <section>
+            </div>
+        <div>
             <h2>Cat Lists</h2>
             <h3>Things cats love:</h3>
             <ul>
@@ -42,9 +42,9 @@
                     alt="Five cats looking around a field.">
                 <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
             </figure>
-        </section>
-        <section>
-            <h2>Cat Form</h2>
+        </div>
+        <div>
+            <h2><i>Cat Form</i></h2>
             <form action="https://freecatphotoapp.com/submit-cat-photo">
                 <fieldset>
                     <legend>Is your cat an indoor or outdoor cat?</legend>
@@ -62,7 +62,7 @@
                 <input type="text" name="catphotourl" placeholder="cat photo URL" required>
                 <button type="submit">Submit</button>
             </form>
-        </section>
+        </div>
     </main>
     <footer>
         <p>
@@ -70,5 +70,4 @@
         </p>
     </footer>
 </body>
-
 </html>
