@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+    --header__section-top-backg-color: #141619;
+    --section-top-contacts-color-text: rgb(246, 246, 246);
+    --nav-list-items-color: rgba(20, 22, 25, 0.78);
+    --nav-list-items-hover:  rgb(10, 10, 15);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
