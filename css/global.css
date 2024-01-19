@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
 
 * {
     margin: 0;
@@ -12,6 +13,13 @@
     --section-top-contacts-color-text: rgb(246, 246, 246);
     --nav-list-items-color: rgba(20, 22, 25, 0.78);
     --nav-list-items-hover:  rgb(10, 10, 15);
+    --main-block-title-color: rgb(255, 255, 255);
+    --main-block-subtitle-color: rgb(186, 186, 186);
+    --main-for-blocks-block-full-background:  rgb(20, 22, 25);
+    --block-full-btn-wh-color: rgb(255, 255, 255);
+    --block-full-btn-bl-color: #141619;
+    --btn-wh-text-bl-color: rgb(10, 10, 15);
+    --btn-bl-text-wh-color: rgb(238, 238, 238);
 }
 
 img {
