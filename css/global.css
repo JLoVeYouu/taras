@@ -20,6 +20,23 @@
     --block-full-btn-bl-color: #141619;
     --btn-wh-text-bl-color: rgb(10, 10, 15);
     --btn-bl-text-wh-color: rgb(238, 238, 238);
+    --section__main-black-background-color: #141619;
+    --background-block-text-number: rgb(238, 238, 238);
+    --black-background-block-text-title-color: rgb(255, 255, 255);
+    --black-background-block-text-subtitle-color: rgb(186, 186, 186);
+    --black-background-block-text-subsubtitle-color: rgb(139, 139, 139);
+    --block-text-links-color: rgb(255, 255, 255);
+    --btn-black-block-text: rgb(255, 255, 255);
+    --block-full-btn-wh-hover:  rgb(238, 238, 238);
+    --block-full-btn-bl-hover:  rgb(10, 10, 15);
+    --nav-list-items-hover-after: #141619;
+    --section-nav-web-icons-border-color: #141619;
+    --nav-web-icons-border: #141619;
+    --nav-web-icons-background-color: rgb(255, 255, 255);
+    --nav-web-icons-background-color-hover: #141619;
+    --nav-web-icons-color: #141619;
+    --nav-web-icons-color-hover: rgb(255, 255, 255);
+
 }
 
 img {
