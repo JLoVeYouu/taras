@@ -36,7 +36,19 @@
     --nav-web-icons-background-color-hover: #141619;
     --nav-web-icons-color: #141619;
     --nav-web-icons-color-hover: rgb(255, 255, 255);
-
+    --section__more-h2-underline-background-color: #0a0a0f;
+    --more-h2-underline-number-color:  rgb(238, 238, 238);
+    --underline-block-links-color:  rgb(255, 255, 255);
+    --more-h2-underline-btn-block-background-color: rgba(255, 255, 255);
+    --btn-block-text-color :rgb(10, 10, 15);
+    --more-h2-underline-btn-block-border: rgba(255, 255, 255);
+    --underline-block-links-hover: rgb(103, 103, 103);
+    --section__for-img-background-color: rgb(10, 10, 15);
+    --section__container-text-nembers-background-color: #0a0a0f;
+    --numbers-info-color: rgb(255, 255, 255);
+    --text-info-color: rgb(238, 238, 238);
+    --section__grey-text-background-color: #0a0a0f;
+    --grey-text-info-color: rgba(255, 255, 255, 0.17);
 }
 
 img {

@@ -6,7 +6,6 @@
 .header__section-top {
     background-color: var(--header__section-top-backg-color);
     height: 52px;
-
 }
 
 .section-top-contacts {
@@ -23,6 +22,26 @@
     margin: 0 auto;
 }
 
+.top-contacts-number {
+    text-decoration: none;
+    transition: all 0.01s ease;
+    cursor: pointer;
+}
+
+.top-contacts-number:hover {
+    text-decoration: underline;
+}
+
+.top-contacts-email {
+    text-decoration: none;
+    transition: all 0.01s ease;
+    cursor: pointer;
+}
+
+.top-contacts-email:hover {
+    text-decoration: underline;
+}
+
 .header__section-nav {
     max-height: 115px;
     padding: 20px 15px;
@@ -30,7 +49,7 @@
     justify-content: center;
     margin: 0 auto;
     max-width: 1200px;
-    gap: 205px;
+    gap: 185px;
 }
 
 .section-nav-logo {
@@ -96,11 +115,10 @@
     width: 30px;
     border: 1px solid var(--nav-web-icons-border);
     background-color: var(--nav-web-icons-background-color);
-    transition: all 0.3s ease-in-out;
-    color: var(--nav-web-icons-color);
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
 }
 
 .nav-web-icons:hover {
-    background-color: var(--nav-web-icons-background-color-hover);
-    color: var(--nav-web-icons-color-hover);
+    border: 3px solid var(--nav-web-icons-background-color-hover);
 }
