@@ -49,6 +49,17 @@
     --text-info-color: rgb(238, 238, 238);
     --section__grey-text-background-color: #0a0a0f;
     --grey-text-info-color: rgba(255, 255, 255, 0.17);
+    --section__white-container-background-color:  #f6f6f6;
+    --container__with-number-color: rgb(60, 62, 66);
+    --container__with-h2-color: rgb(10, 10, 15);
+    --container__with-text-color: rgb(60, 62, 66);
+    --container__with-text-subtitle-color: rgb(124, 124, 124);
+    --container__with-text-subtitle-div-color: rgb(20, 22, 25);
+    --container-carousel-text-background-color: #141619;
+    --text-block-title-and-subtitle-color: rgb(255, 255, 255);
+    --text-block-title-and-subtitle-div-color:  rgb(164, 164, 164);
+    --learn-more-svg-color: rgb(255, 255, 255);
+    --text-block-link-learn-more-color: rgb(255, 255, 255);
 }
 
 img {
