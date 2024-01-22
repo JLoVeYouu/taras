@@ -60,6 +60,18 @@
     --text-block-title-and-subtitle-div-color:  rgb(164, 164, 164);
     --learn-more-svg-color: rgb(255, 255, 255);
     --text-block-link-learn-more-color: rgb(255, 255, 255);
+    --half-text-number-color: rgb(60, 62, 66);
+    --half-text-title-color: rgb(10, 10, 15);
+    --half-text-subtitle-color: rgb(60, 62, 66);
+    --identical__container-number-block-color: rgb(255, 255, 255);
+    --identical__container-number-block-background-color: rgb(20, 22, 25);
+    --identical__container-text-title-color: rgb(10, 10, 15);
+    --identical__container-text-subtitle-color: rgb(124, 124, 124);
+    --section__half-image-half-text-background-color: #eeeeee;
+    --section__container-black-chief-background-color: #0a0a0f;
+    --section__with-number-color: rgb(238, 238, 238);
+    --section__with-title-color: rgb(255, 255, 255);
+    --section__with-subtitle-color: rgb(186, 186, 186);
 }
 
 img {

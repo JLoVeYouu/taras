@@ -274,7 +274,7 @@
 
 .section__more-h2-underline-block {
     max-width: 1200px;
-    max-height: 350px;
+    max-height: 550px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -301,6 +301,11 @@
     max-width: 1200px;
     margin: 20px 0 0 0;
     text-align: center;
+}
+
+.underline-block-div {
+    display: inline;
+    color: var(--underline-block-links-color);
 }
 
 .underline-block-links {
@@ -632,4 +637,167 @@
     width: 20px;
     height: 20px;
     color: var(--learn-more-svg-color);
+}
+
+/* section__half-image-half-text */
+
+.section__half-image-half-text {
+    max-height: 1100px;
+    background-color: var(--section__half-image-half-text-background-color);
+}
+
+.half-image-half-text__container {
+    max-height: 1100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.half-image__container {
+    max-width: 932px;
+    max-height: 1100px;
+}
+
+.half-iamge {
+    height: 100%;
+    object-fit: cover;
+    object-position: 30.8% 0%;
+}
+
+.half-text__container {
+    display: flex;
+    flex-direction: column;
+    padding: 130px 30px 110px;
+    margin: 0 auto;
+    max-width: 630px;
+
+}
+
+.half-text-number {
+    color: var(--half-text-number-color);
+    font-size: 12px;
+    font-family: 'Heebo', sans-serif;
+    letter-spacing: 2.4px;
+    font-weight: 700;
+}
+
+.half-text-title {
+    color: var(--half-text-title-color);
+    font-size: 60px;
+    font-family: 'Space Grotesk', sans-serif;
+    line-height: 72px;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.half-text-subtitle {
+    color: var(--half-text-subtitle-color);
+    font-size: 19px;
+    font-family: 'Heebo', sans-serif;
+    line-height: 28.5px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+.container__with-number-block-and-text {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    gap: 35px;
+}
+
+.identical__container-number-block-text {
+    max-width: 570px;
+    max-height: 180px;
+    display: flex;
+    justify-content: center;
+}
+
+.identical__container-number-block {
+    font-size: 32px;
+    font-family: 'Heebo', sans-serif;
+    color: var(--identical__container-number-block-color);
+    min-width: 70px;
+    height: 70px;
+    background-color: var(--identical__container-number-block-background-color);
+    border-radius: 35px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.identical__container-text {
+    max-height: 162px;
+    max-width: 485px;
+    padding-left: 15px;
+}
+
+.identical__container-text-title {
+    color: var(--identical__container-text-title-color);
+    font-size: 26px;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 0.52px;
+    line-height: 29.52px;
+    font-weight: 700;
+}
+
+.identical__container-text-subtitle {
+    font-size: 17px;
+    color: var(--identical__container-text-subtitle-color);
+    line-height: 25.5px;
+}
+
+/* section__container-black-chief */
+
+.section__container-black-chief {
+    max-height: 710px;
+    background-color: var(--section__container-black-chief-background-color);
+    padding: 130px 0;
+}
+
+.container-black-chief-with-another-sections {
+    max-width: 1200px;
+    max-height: 450px;
+    margin: 0 auto;
+}
+
+.section__with-number-title-and-subtitle {
+    max-width: 1200px;
+    max-height: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section__with-number {
+    font-size: 12px;
+    color: var(--section__with-number-color);
+    letter-spacing: 2.4px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+.section__with-title {
+    font-size: 60px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    color: var(--section__with-title-color);
+    letter-spacing: 1.2px;
+    line-height: 72px;
+    margin-top: 20px;
+}
+
+.section__with-subtitle {
+    font-weight: 500;
+    line-height: 28.5px;
+    color: var(--section__with-subtitle-color);
+    font-family: 'Heebo', sans-serif;
+    font-size: 19px;
+    margin-top: 25px;
 }
