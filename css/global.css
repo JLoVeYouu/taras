@@ -72,6 +72,19 @@
     --section__with-number-color: rgb(238, 238, 238);
     --section__with-title-color: rgb(255, 255, 255);
     --section__with-subtitle-color: rgb(186, 186, 186);
+    --same-container-with-title-color: rgb(255, 255, 255);
+    --same-container-with-subtitle-color: rgb(139, 139, 139);
+    --container-with-svg-background-color: rgb(246, 246, 246);
+    --container-with-text__title-color: rgb(238, 238, 238);
+    --container-with-text__subtitle-color: rgb(255, 255, 255);
+    --section__background-white-with-section-for-all-background-color: #ffffff;
+    --with-number-container-color: rgb(60, 62, 66);
+    --with-title-container-color: rgb(10, 10, 15);
+    --with-subtitle-container-color: rgb(60, 62, 66);
+    --similar-container-with-text-color: rgb(124, 124, 124);
+    --similar-container-with-subtitle-color: rgb(60, 62, 66);
+    --similar-container-with-fullname-color: rgb(10, 10, 15);
+    
 }
 
 img {
