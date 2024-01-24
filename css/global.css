@@ -84,6 +84,29 @@
     --similar-container-with-text-color: rgb(124, 124, 124);
     --similar-container-with-subtitle-color: rgb(60, 62, 66);
     --similar-container-with-fullname-color: rgb(10, 10, 15);
+    --section-half-fot-text-with-number-color: rgb(60, 62, 66);
+    --section-half-fot-text-with-title-color: rgb(10, 10, 15);
+    --section-half-fot-text-with-subtitle-color: rgb(60, 62, 66);
+    --section-half-fot-text-with-text-color: rgb(124, 124, 124);
+    --alike-container-with-text-color: rgb(60, 62, 66);
+    --section-half-fot-text-with-text-under-containers-color: rgb(124, 124, 124);
+    --section__with-another-sections-with-text-and-image-background-color: #eeeeee;
+    --section-half-fot-text-with-button-button-border: #141619;
+    --section-half-fot-text-with-button-button-background-color: #141619;
+    --section-half-fot-text-with-button-button-color: rgb(255, 255, 255);
+    --section-half-fot-text-with-button-button-hover: #eeeeee;
+    --section-half-fot-text-with-button-button-hover-color: #141619;
+    --section__name-latest-articles-with-sections-background-color: #141619;
+    --section-who-have-only-text-number-color: rgb(255, 255, 255);
+    --section-who-have-only-text-title-color: rgb(255, 255, 255);
+    --section-who-have-only-text-subtitle-color: rgb(186, 186, 186);
+    --equivalent-section-who-have-title-color: rgb(255, 255, 255);
+    --equivalent-section-who-have-text-color: rgb(139, 139, 139);
+    --equivalent-section-who-have-btn-button-border: #ffffff;
+    --equivalent-section-who-have-btn-button-bacground: #ffffff;
+    --equivalent-section-who-have-btn-button-color: rgb(10, 10, 15);
+    --equivalent-section-who-have-btn-button-hover-color: rgb(255, 255, 255);
+    --equivalent-section-who-have-btn-button-hover-background: rgb(10, 10, 15);
     
 }
 
