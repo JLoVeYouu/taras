@@ -107,6 +107,21 @@
     --equivalent-section-who-have-btn-button-color: rgb(10, 10, 15);
     --equivalent-section-who-have-btn-button-hover-color: rgb(255, 255, 255);
     --equivalent-section-who-have-btn-button-hover-background: rgb(10, 10, 15);
+    --section__follow-me-and-get-background-color: #141619;
+    --follow-me-and-get-container-with-title-color: rgb(255, 255, 255);
+    --follow-me-and-get-container-with-subtitle-color: rgb(186, 186, 186);
+    --container-with-sample-link-color: rgb(255, 255, 255);
+    --section__09-get-in-touch-with-me-with-another-sections-background-color: #0a0a0f;
+    --section__with-number-numb-color: rgb(238, 238, 238);
+    --section__with-title-text-color: rgb(255, 255, 255);
+    --section__with-subtitle-text-color: rgb(186, 186, 186);
+    --section__with-text-text-color: rgb(139, 139, 139);
+    --section__with-text-with-svg-but-its-arrow-color: rgb(255, 255, 255);
+    --identical__contact-info-containers-with-text-for-all-color: rgb(139, 139, 139);
+    --identical__contact-info-containers-with-text-title-color: rgb(238, 238, 238);
+    --contact-info-container-with-svg-color: rgb(255, 255, 255);
+    --contact-info-title-color: rgb(238, 238, 238);
+
     
 }
 
