@@ -121,7 +121,14 @@
     --identical__contact-info-containers-with-text-title-color: rgb(238, 238, 238);
     --contact-info-container-with-svg-color: rgb(255, 255, 255);
     --contact-info-title-color: rgb(238, 238, 238);
-
+    --section__last-where-more-links-icon-images-and-svg-background-color: #0a0a0f;
+    --section__with-text-item-color: rgb(139, 139, 139);
+    --navigation-text-item-color: rgb(255, 255, 255);
+    --simply-links-items-color: rgb(139, 139, 139);
+    --follow-me-text-item-color: rgb(255, 255, 255);
+    --section__last-block-in-footer-background-color: #0a0a0f;
+    --last-block-in-footer-container-text-color: rgb(139, 139, 139);
+    --last-block-in-footer-container-another-text-color: rgb(139, 139, 139);
     
 }
 

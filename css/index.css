@@ -367,32 +367,27 @@
     background-color: var(--section__for-img-background-color);
 }
 
-.img-block {
+.section__for-img-img-block {
     width: 100%;
-    max-height: 763px;
     display: grid;
-    grid-template-columns: repeat(3, minmax(280px, 586px));
-    grid-template-rows: minmax(364px, 764px);
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 10px;
 }   
 
 .img-block-images {
     display: inline-block;
     overflow: hidden;
-    display: contents;
-    max-width: 586px;
     max-height: 763px;
+    margin: 0 15px;
 }
 
 
 .images-image {
-    height: 763px;
+    max-height: 763px;
     transition: all 1s ease-in-out;
     display: block;
     object-fit: cover;
+    height: 100%;
 }
 
 .images-image:hover {
@@ -554,30 +549,29 @@
 }
 
 .container-carousel {
-    max-height: 490px;
     max-width: 1200px;
     margin: 50px 0 0 0;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* gap: 30px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .container-carousel-img-and-text {
-    max-width: 1200px;
-    max-height: 490px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 0 15px;
 }
 
 .container-carousel-img {
-    max-width: 360px;
-    max-height: 427px;
+    height: 100%;
 }
 
 .carousel-img-images {
-    height: 427px;
+    max-height: 427px;
     object-fit: cover;
+    height: 100%;
 }
 
 .container-carousel-text {
@@ -586,7 +580,8 @@
     background-color: var(--container-carousel-text-background-color);
     padding: 15px;
     position: relative;
-    top: -40px
+    top: -40px;
+    margin: 0 auto;
 }
 
 .carousel-text-block {
@@ -979,27 +974,26 @@
 
 .container-with-img-text-subtitle-and-fullname {
     max-width: 1200px;
-    max-height: 765px;
+    margin: 50px 0 0 0;
     display: flex;
     justify-content: center;
-    gap: 60px;
-    margin-top: 50px;
 }
 
 .similar-container-with-img-text-subtitle-and-fullname {
-    max-height: 765px;
     max-width: 525px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
 }
 
 .similar-container-with-img {
-    max-width: 525px;
-    max-height: 592px;
+    height: 100%;
 }
 
 .similar-container-with-img-girl, .similar-container-with-img-guy {
-    max-width: 525px;
     object-fit: cover;
-    height: 592px;
+    max-height: 592px;
+    height: 100%;
 }
 
 .similar-container-with-text {
