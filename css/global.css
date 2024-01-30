@@ -129,7 +129,9 @@
     --section__last-block-in-footer-background-color: #0a0a0f;
     --last-block-in-footer-container-text-color: rgb(139, 139, 139);
     --last-block-in-footer-container-another-text-color: rgb(139, 139, 139);
-    
+    --nav-btn-btn-color: rgb(20 22 25);
+    --section__hidden-block-for-section-nav-btn-background-color: #ffffff;
+    --section__hidden-block-for-section-nav-btn-items-color: rgba(20, 22, 25, 0.78);
 }
 
 img {

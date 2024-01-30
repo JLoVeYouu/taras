@@ -51,6 +51,8 @@
     max-width: 1200px;
 }
 
+
+
 .section-nav-logo {
     height: 30px;
     width: 130px;
@@ -119,4 +121,60 @@
 
 .nav-web-icons:hover {
     border: 3px solid var(--nav-web-icons-background-color-hover);
+}
+
+
+@media (max-width: 991px) {
+    .header__section-top {
+        display: none;
+    }
+
+    .section-nav-list {
+        display: none;
+    }
+
+    .section-nav-web-icons {
+        display: none;
+
+    }
+
+    .section-nav-btn {
+        height: 30px;
+        width: 30px;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .nav-btn-btn {
+        display: block;
+        width: 24px;
+        height: 2px;
+        position: relative;
+        background-color: var(--nav-btn-btn-color);
+    }
+
+    .nav-btn-btn::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        background-color: var(--nav-btn-btn-color);
+        top: -7px;
+
+    }
+
+    .nav-btn-btn::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        background-color: var(--nav-btn-btn-color);
+        top: 7px;
+    }
+
 }
