@@ -58,8 +58,28 @@
     margin-top: 25px;
 
 }
-
 .section__with-text-with-svg-but-its-arrow {
+    display: flex;
+    gap: 10px;
+
+}
+
+.text-in-section__with-text-with-svg-but-its-arrow {
+    color: var(--section__with-text-with-svg-but-its-arrow-color);
+    font-size: 26px;
+    letter-spacing: 0.52px;
+    font-weight: 700;
+    line-height: 32px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.text-in-section__with-text-with-svg-but-its-arrow:hover {
+    text-decoration: underline;
+}
+
+.svg-arrow-in-section__with-text-with-svg-but-its-arrow {
     color: var(--section__with-text-with-svg-but-its-arrow-color);
     font-size: 26px;
     letter-spacing: 0.52px;
@@ -68,6 +88,10 @@
     font-family: 'Space Grotesk', sans-serif;
     margin-top: 20px;
 }
+
+
+
+
 
 .section__for-sections-get-in-touch-contact-info {
     max-width: 350px;
@@ -145,7 +169,7 @@
 }
 
 .svg-i-dont-see-it-but-under-section__for-sections-get-in-touch {
-    max-width: 1170px;
+    max-width: 1200px;
     margin: 50px auto 0;
 }
 
@@ -154,21 +178,23 @@
 /* .section__last-where-more-links-icon-images-and-svg */
 
 .section__last-where-more-links-icon-images-and-svg {
-    max-height: 353px;
     background-color: var(--section__last-where-more-links-icon-images-and-svg-background-color);
+    padding: 45px 40px 0px;
 }
 
 .section__block-for-all-of-these {
     max-width: 1200px;
     height: 100%;
-    padding: 45px 15px 65px;
     display: flex;
     margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 65px;
 }
 
 .section__with-main-icon-text-and-svg {
-    max-width: 370px;
     height: 100%;
+    padding-right: 20px;
+    max-width: 400px;
 }
 
 .section__with-main-icon-item {
@@ -190,6 +216,27 @@
 }
 
 
+.section-nav-web-icons-in-footer {
+    display: flex;
+    gap: 15px;
+    margin-top: 60px;
+}
+
+.nav-web-icons-in-footer {
+    height: 30px;
+    width: 30px;
+    border: 1px solid var(--nav-web-icons-border);
+    background-color: var(--nav-web-icons-in-footer);
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.nav-web-icons-in-footer:hover {
+    background-color: var(--nav-web-icons-in-footer-hover);
+}
+
+
+
 .section__with-svg-items {
     width: 100%;
     height: 28px;
@@ -205,8 +252,11 @@
 }
 
 .section__navigation-svg-and-links {
-    max-width: 201px;
     padding: 0 20px;
+}
+
+.svg-item {
+    max-width: 40px;
 }
 
 .navigation-text-item {
@@ -232,7 +282,6 @@
 
 
 .section__support-svg-and-links {
-    max-width: 201px;
     padding: 0 20px;
 }
 
@@ -246,8 +295,9 @@
 }
 
 .section__follow-me-with-text-and-images {
-    max-width: 404px;
+    max-width: 383px;
     height: 100%;
+    padding-left: 20px;
 }
 
 .follow-me-text-item {
@@ -267,8 +317,8 @@
 }
 
 .identical-images-items {
-    width: 80px;
-    height: 79px;
+    min-width: 56px;
+    min-height: 56px;
 }
 
 .svg-item-line-under-section__last-where-more-links-icon-images-and-svg {
@@ -287,11 +337,12 @@
 
 .last-block-in-footer-container {
     height: 72px;
-    padding: 20px 15px;
-    max-width: 1200px;
+    padding: 20px 40px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .last-block-in-footer-container-text {
@@ -401,20 +452,20 @@
     .section__last-where-more-links-icon-images-and-svg {
         background-color: var(--section__last-where-more-links-icon-images-and-svg-background-color);
         max-height: max-content;
+        padding: 45px 32px 0px;
     }
 
     .section__block-for-all-of-these {
         height: 100%;
-        padding: 45px 32px 65px;
         display: grid;
         margin: 0 auto;
-        gap: 40px;
         grid-template-columns: 1fr 1fr 1fr 1.5fr;
+        justify-content: center;
     }
     
     .section__with-main-icon-text-and-svg {
         height: 100%;
-        max-width: 250px;
+        padding-right: 15px;
     }
 
     .section__with-text-item {
@@ -426,20 +477,21 @@
     }
 
     .section__navigation-svg-and-links {
-        max-width: 128px;
-        padding: 0;
+        padding: 0 15px;
     }
 
     .section__support-svg-and-links {
-        max-width: 138px;
-        padding: 0;
+        padding: 0 15px;
     }
 
     .section__follow-me-with-text-and-images {
         height: 100%;
-        padding: 0;
+        padding-left: 15px;
     }
 
+    .svg-item {
+        max-width: 40px;
+    }
     .simply-links-items {
         color: var(--simply-links-items-color);
         font-size: 17px;
@@ -467,7 +519,17 @@
     .identical-images-items {
         max-width: 130px;
         max-height: 130px;
-        width: max-content;
-        height: max-content;
+        min-width: 93px;
+        min-height: 93px;
+    }
+
+    .last-block-in-footer-container {
+        height: 72px;
+        padding: 20px 32px;
+        max-width: 1280px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
