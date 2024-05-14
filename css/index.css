@@ -1948,11 +1948,7 @@
         margin: 0 22px;
     }
 
-<<<<<<< HEAD
     .container-carousel-img-and-text-third {
-=======
-    .container-carousel-img-and-text + .none {
->>>>>>> 7d92c9abed48a065c0e29e8f84e148f140c7d998
         display: none;
     }
 
@@ -2264,7 +2260,7 @@
         line-height: 50px;
     }
 
-
+}
 
 @media (max-width: 768px) {
 
@@ -2647,4 +2643,5 @@
         align-items: center;
         flex-wrap: wrap;
     }
+
 }
