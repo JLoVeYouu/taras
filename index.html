@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="./img/img-for-header/short-cut-icon.png" type="image/x-icon">
   </head>
   <body>
-    <div></div>
     <!-- Тут треба прописати position: absolute , ну і далі back-color: white, height: 100vh і все -->
     <section class="for__burger-menu">  
       <div class="block-inside-burger-menu">
@@ -18,7 +17,7 @@
       </div>
     </section>
     <header data-include="header.partial.html"></header>
-      <main class="section__main">
+      <main id="main" class="section__main">
         <div class="section__main-content-image">
           <div class="section__main-content">
             <div class="main-for-blocks">
@@ -189,7 +188,7 @@
               </div>
             </div>
             <div class="container-carousel">
-              <div class="container-carousel-img-and-text">
+              <div class="container-carousel-img-and-text-first">
                 <div class="container-carousel-img">
                   <img class="carousel-img-images" src="img/img-for-header/1-img-for-container-carousel.jpg" alt="">
                 </div>
@@ -203,7 +202,7 @@
                   </div>
                 </div>
               </div>
-              <div class="container-carousel-img-and-text">
+              <div class="container-carousel-img-and-text-second">
                 <div class="container-carousel-img">
                   <img class="carousel-img-images" src="img/img-for-header/2-img-for-container-carousel.webp" alt="">
                 </div>
@@ -217,7 +216,7 @@
                   </div>
                 </div>
               </div>
-              <div class="container-carousel-img-and-text none">
+              <div class="container-carousel-img-and-text-third">
                 <div class="container-carousel-img">
                   <img class="carousel-img-images" src="img/img-for-header/3-img-for-container-carousel.webp" alt="">
                 </div>
@@ -468,5 +467,6 @@
       </main>
       <footer data-include="footer.partial.html"></footer>
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
