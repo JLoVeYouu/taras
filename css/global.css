@@ -136,7 +136,9 @@
     --section__grey-text-background-color: #141619;
     --nav-web-icons-in-footer: #141619;
     --nav-web-icons-in-footer-hover: #232529;
-    --simply-links-items-hover: rgb(255, 255, 255)
+    --simply-links-items-hover: rgb(255, 255, 255);
+    --text-inside-second-text: rgba(255, 255, 255, 0.77);
+    --text-inside-first: rgb(255, 255, 255);
 }
 
 img {
