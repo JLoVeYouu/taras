@@ -17,32 +17,34 @@ let hiddenDivForSecondImg = document.querySelector('.img-block-images-2-text-ins
 let hiddenDivForThirdImg = document.querySelector('.img-block-images-3-text-inside')
 
 firstDivImg.addEventListener('mouseenter', () => {
-    hiddenDivForFirstImg.style.display = 'flex'
+    hiddenDivForFirstImg.style.opacity = 1;
     firstImg.style.cssText = 'transform: scale(1.1); opacity: 0.4;'
 })
 
 firstDivImg.addEventListener('mouseleave', () => {
-    hiddenDivForFirstImg.style.display = 'none'
+    hiddenDivForFirstImg.style.opacity = 0
     firstImg.style.cssText = 'transform: scale(1); opacity: 1;'
 })
 
 secondDivImg.addEventListener('mouseenter', () => {
-    hiddenDivForSecondImg.style.display = 'flex'
+    hiddenDivForSecondImg.style.opacity = 1;
     secondImg.style.cssText = 'transform: scale(1.1); opacity: 0.4;'
 })
 
 secondDivImg.addEventListener('mouseleave', () => {
-    hiddenDivForSecondImg.style.display = 'none'
+    hiddenDivForSecondImg.style.opacity = 0
     secondImg.style.cssText = 'transform: scale(1); opacity: 1;'
 })
 
 thirdDivImg.addEventListener('mouseenter', () => {
-    hiddenDivForThirdImg.style.display = 'flex'
+    hiddenDivForThirdImg.style.opacity = 1;
     thirdImg.style.cssText = 'transform: scale(1.1); opacity: 0.4;'
 })
 
 thirdDivImg.addEventListener('mouseleave', () => {
-    hiddenDivForThirdImg.style.display = 'none'
+    hiddenDivForThirdImg.style.opacity = 0
     thirdImg.style.cssText = 'transform: scale(1); opacity: 1;'
 })
+
+
 
