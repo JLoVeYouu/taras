@@ -1,50 +1,34 @@
-let firstDivImg = document.querySelector('.img-block-images-1')
-
+const fatherBlock = document.querySelector('.section__for-img-img-block')
 let firstImg = document.querySelector('.images-image-1')
-
-let secondDivImg = document.querySelector('.img-block-images-2')
-
 let secondImg = document.querySelector('.images-image-2')
-
-let thirdDivImg = document.querySelector('.img-block-images-3')
-
 let thirdImg = document.querySelector('.images-image-3')
+let hidFirst = document.querySelector('.img-block-images-1-text-inside')
+let hidSecond = document.querySelector('.img-block-images-2-text-inside')
+let hidThird = document.querySelector('.img-block-images-3-text-inside')
 
-let hiddenDivForFirstImg = document.querySelector('.img-block-images-1-text-inside')
-
-let hiddenDivForSecondImg = document.querySelector('.img-block-images-2-text-inside')
-
-let hiddenDivForThirdImg = document.querySelector('.img-block-images-3-text-inside')
-
-firstDivImg.addEventListener('mouseenter', () => {
-    hiddenDivForFirstImg.style.opacity = 1;
-    firstImg.style.cssText = 'transform: scale(1.1); opacity: 0.4;'
+fatherBlock.addEventListener('mouseover', function (e) {
+    let target = e.target.classList
+    if (target.contains('img-block-images-1-text-inside') || e.target.dataset.itemFirst) {
+        hidFirst.style.opacity = 1;
+        firstImg.style.cssText = 'transform: scale(1.1); opacity: 0.4;'
+    } else if (target.contains('img-block-images-2-text-inside')  || e.target.dataset.itemSecond) {
+        hidSecond.style.opacity = 1;
+        secondImg.style.cssText = 'transform: scale(1.1); opacity: 0.4;'
+    } else if (target.contains('img-block-images-3-text-inside')  || e.target.dataset.itemThird) {
+        hidThird.style.opacity = 1;
+        thirdImg.style.cssText = 'transform: scale(1.1); opacity: 0.4;'
+    }
 })
-
-firstDivImg.addEventListener('mouseleave', () => {
-    hiddenDivForFirstImg.style.opacity = 0
-    firstImg.style.cssText = 'transform: scale(1); opacity: 1;'
+fatherBlock.addEventListener('mouseout', function (e) {
+    let target = e.target.classList
+    if (target.contains('img-block-images-1-text-inside')) {
+        hidFirst.style.opacity = 0;
+        firstImg.style.cssText = 'transform: scale(1); opacity: 1;'
+    } else if (target.contains('img-block-images-2-text-inside')) {
+        hidSecond.style.opacity = 0;
+        secondImg.style.cssText = 'transform: scale(1); opacity: 1;'
+    } else if (target.contains('img-block-images-3-text-inside')) {
+        hidThird.style.opacity = 0;
+        thirdImg.style.cssText = 'transform: scale(1); opacity: 1;'
+    }
 })
-
-secondDivImg.addEventListener('mouseenter', () => {
-    hiddenDivForSecondImg.style.opacity = 1;
-    secondImg.style.cssText = 'transform: scale(1.1); opacity: 0.4;'
-})
-
-secondDivImg.addEventListener('mouseleave', () => {
-    hiddenDivForSecondImg.style.opacity = 0
-    secondImg.style.cssText = 'transform: scale(1); opacity: 1;'
-})
-
-thirdDivImg.addEventListener('mouseenter', () => {
-    hiddenDivForThirdImg.style.opacity = 1;
-    thirdImg.style.cssText = 'transform: scale(1.1); opacity: 0.4;'
-})
-
-thirdDivImg.addEventListener('mouseleave', () => {
-    hiddenDivForThirdImg.style.opacity = 0
-    thirdImg.style.cssText = 'transform: scale(1); opacity: 1;'
-})
-
-
-
