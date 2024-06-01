@@ -79,3 +79,39 @@ jumpToTopPageAnother.addEventListener('click', (e) => {
 })
 
 
+// scroll to section__background-white-with-section-for-all // 
+
+const jumpTosectionBackgroundWhiteWithSectionForAll  = document.querySelector('.simply-links-items:nth-of-type(6)')
+const sectionBackgroundWhiteWithSectionForAll = document.querySelector('.section__background-white-with-section-for-all')
+jumpTosectionBackgroundWhiteWithSectionForAll.onclick = () => {
+    sectionBackgroundWhiteWithSectionForAll.scrollIntoView(true)
+}
+
+
+// burger button //
+
+const burgerBtn = document.querySelector('.section-nav-btn')
+const sectionMain = document.querySelector('.section__main-content')
+const burgerMenu = document.querySelector('.for__burger-menu')
+let isBurgerMenuOpen = false
+burgerBtn.onclick = () => {
+    if (isBurgerMenuOpen) {
+        document.documentElement.style.cssText = '';
+        burgerMenu.style.display = 'none'
+        sectionMain.hidden = false
+    } else {
+        document.documentElement.style.cssText = 'overflow-y: hidden';
+        burgerMenu.style.display = 'flex'
+        sectionMain.hidden = true
+    }
+    isBurgerMenuOpen = !isBurgerMenuOpen
+}
+function resizeWindow() {
+    const pageWidth = window.innerWidth
+    if (pageWidth > 991 && isBurgerMenuOpen) {
+        document.documentElement.style.cssText = '';
+        burgerMenu.style.display = 'none'
+        sectionMain.hidden = false
+    }
+}
+window.addEventListener('resize', resizeWindow)
