@@ -115,3 +115,37 @@ function resizeWindow() {
     }
 }
 window.addEventListener('resize', resizeWindow)
+
+
+
+// scroll to top page with leave burger menu //
+
+const logoInBurgerMenu = document.querySelector('.section-nav-logo')
+
+logoInBurgerMenu.onclick = () => {
+    document.documentElement.style.cssText = '';
+        burgerMenu.style.display = 'none'
+        sectionMain.hidden = false
+}
+
+
+// try write carousel alone // 
+
+const containerCarousel = document.querySelector('.container-carousel')
+const rigthBtn = document.querySelector('.right-btn-in-first-carousel')
+const leftBtn = document.querySelector('.left-btn-in-first-carousel')
+const widthChildElem = document.querySelector('.container-carousel-img-and-text-first')
+
+rigthBtn.addEventListener('click', () => {
+    containerCarousel.scrollBy({
+        left: widthChildElem.offsetWidth + 30,
+        behavior: "smooth"
+    })
+})
+
+leftBtn.addEventListener('click', () => {
+    containerCarousel.scrollBy({
+        left: -(widthChildElem.offsetWidth + 30),
+        behavior: "smooth"
+    })
+})

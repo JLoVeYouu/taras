@@ -624,6 +624,7 @@
     max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
+    position: relative;
 }
 
 .white-container-with-text {
@@ -691,24 +692,76 @@
 
 .container-carousel {
     margin: 50px 0 0 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    max-width: 1170px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.right-btn-in-first-carousel {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    z-index: 1;
+    background-color: #f6f6f6;
+    border: none;
+    cursor: pointer;
+}
+
+.left-btn-in-first-carousel {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    z-index: 1;
+    transform: rotateY(180deg);
+    background-color: #f6f6f6;
+    border: none;
+    cursor: pointer;
 }
 
 .container-carousel-img-and-text-first {
     display: flex;
     flex-direction: column;
     margin: 0 15px;
+    flex: 0 0 auto;
+    max-width: 360px;
 }
+
+.container-carousel-img-and-text-firstt {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    flex: 0 0 auto;
+    max-width: 360px;
+}
+
+.container-carousel-img-and-text-firsttt {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    flex: 0 0 auto;
+    max-width: 360px;
+}
+
 .container-carousel-img-and-text-second {
     display: flex;
     flex-direction: column;
     margin: 0 15px;
+    flex: 0 0 auto;
+    max-width: 360px;
 }
+
 .container-carousel-img-and-text-third {
     display: flex;
     flex-direction: column;
     margin: 0 15px;
+    flex: 0 0 auto;
+    max-width: 360px;
 }
 
 .container-carousel-img {
