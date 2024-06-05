@@ -697,6 +697,7 @@
     overflow-x: hidden;
     white-space: nowrap;
     position: relative;
+    transition: transform 0.5s ease;
 }
 
 .right-btn-in-first-carousel {
@@ -709,6 +710,7 @@
     background-color: var(--right-btn-in-first-carousel);
     border: none;
     cursor: pointer;
+    transition: all 0.5s ease;
 }
 
 .left-btn-in-first-carousel {
@@ -722,6 +724,7 @@
     background-color: var(--left-btn-in-first-carousel);
     border: none;
     cursor: pointer;
+    transition: all 0.5s ease;
 }
 
 .container-carousel-img-and-text-first {
@@ -732,21 +735,6 @@
     max-width: 360px;
 }
 
-.container-carousel-img-and-text-firstt {
-    display: flex;
-    flex-direction: column;
-    margin: 0 15px;
-    flex: 0 0 auto;
-    max-width: 360px;
-}
-
-.container-carousel-img-and-text-firsttt {
-    display: flex;
-    flex-direction: column;
-    margin: 0 15px;
-    flex: 0 0 auto;
-    max-width: 360px;
-}
 
 .container-carousel-img-and-text-second {
     display: flex;
@@ -763,6 +751,31 @@
     flex: 0 0 auto;
     max-width: 360px;
 }
+
+.container-carousel-img-and-text-fourth {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    flex: 0 0 auto;
+    max-width: 360px;
+}
+
+.container-carousel-img-and-text-five {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    flex: 0 0 auto;
+    max-width: 360px;
+}
+
+.container-carousel-img-and-text-six {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    flex: 0 0 auto;
+    max-width: 360px;
+}
+
 
 .container-carousel-img {
     height: 100%;
