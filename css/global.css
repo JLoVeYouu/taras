@@ -143,6 +143,8 @@
     --links-in-burger-menu: rgba(20, 22, 25, 0.7);
     --text-in-burger-menu: #a3a3a3;
     --text-in-burger-menu-last-child: #a3a3a3;
+    --right-btn-in-first-carousel: #f6f6f6;
+    --left-btn-in-first-carousel: #f6f6f6;
 }
 
 img {

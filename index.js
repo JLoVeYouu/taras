@@ -131,21 +131,36 @@ logoInBurgerMenu.onclick = () => {
 
 // try write carousel alone // 
 
-const containerCarousel = document.querySelector('.container-carousel')
-const rigthBtn = document.querySelector('.right-btn-in-first-carousel')
-const leftBtn = document.querySelector('.left-btn-in-first-carousel')
-const widthChildElem = document.querySelector('.container-carousel-img-and-text-first')
+document.addEventListener('DOMContentLoaded', () => {
+    const containerCarousel = document.querySelector('.container-carousel')
+    const rigthBtn = document.querySelector('.right-btn-in-first-carousel')
+    const leftBtn = document.querySelector('.left-btn-in-first-carousel')
+    const widthChildElem = document.querySelector('.container-carousel-img-and-text-first').offsetWidth + 30
+    
+    rigthBtn.addEventListener('click', () => {
+        containerCarousel.scrollBy({
+            left: widthChildElem,
+            behavior: "smooth"
+        })
 
-rigthBtn.addEventListener('click', () => {
-    containerCarousel.scrollBy({
-        left: widthChildElem.offsetWidth + 30,
-        behavior: "smooth"
+        setTimeout(() => {
+            containerCarousel.appendChild(containerCarousel.firstElementChild)
+            containerCarousel.scrollLeft -= widthChildElem
+        }, 300)
     })
-})
+    
+    leftBtn.addEventListener('click', () => {
+        containerCarousel.scrollBy({
+            left: -widthChildElem,
+            behavior: "smooth"
+        })
 
-leftBtn.addEventListener('click', () => {
-    containerCarousel.scrollBy({
-        left: -(widthChildElem.offsetWidth + 30),
-        behavior: "smooth"
+        setTimeout(() => {
+            containerCarousel.insertBefore(containerCarousel.lastElementChild, containerCarousel.firstElementChild)
+            containerCarousel.scrollLeft += widthChildElem
+        }, 300)
     })
+
+    containerCarousel.scrollLeft = widthChildElem;
+
 })

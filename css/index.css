@@ -706,7 +706,7 @@
     right: -25px;
     top: 50%;
     z-index: 1;
-    background-color: #f6f6f6;
+    background-color: var(--right-btn-in-first-carousel);
     border: none;
     cursor: pointer;
 }
@@ -719,7 +719,7 @@
     top: 50%;
     z-index: 1;
     transform: rotateY(180deg);
-    background-color: #f6f6f6;
+    background-color: var(--left-btn-in-first-carousel);
     border: none;
     cursor: pointer;
 }
