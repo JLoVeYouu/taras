@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             containerCarousel.appendChild(containerCarousel.firstElementChild)
             containerCarousel.scrollLeft = widthChildElem
-        }, 350)
+        }, 400)
     })
     
     leftBtn.addEventListener('click', () => {
@@ -158,7 +158,38 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             containerCarousel.insertBefore(containerCarousel.lastElementChild, containerCarousel.firstElementChild)
             containerCarousel.scrollLeft = widthChildElem
-        }, 350)
+        }, 400)
     })
 
+})
+
+document.addEventListener('DOMContentLoaded', () => {
+    const containerCarouselTwo = document.querySelector('.container-with-img-text-subtitle-and-fullname')
+    const rightBtnInCarouselTwo = document.querySelector('.right-btn-in-carousel-number-two') 
+    const leftBtnInCarouselTwo = document.querySelector('.left-btn-in-carousel-number-two')
+    const offsetWidthItemInCarouselTwo = document.querySelector('.similar-container-with-img-text-subtitle-and-fullname-first').offsetWidth
+
+    rightBtnInCarouselTwo.onclick = () => {
+        containerCarouselTwo.scrollBy({
+            left: offsetWidthItemInCarouselTwo,
+            behavior: "smooth",
+        })
+
+        setTimeout(() => {
+            containerCarouselTwo.appendChild(containerCarouselTwo.firstElementChild)
+            containerCarouselTwo.scrollLeft = -offsetWidthItemInCarouselTwo
+        }, 400)
+    }
+
+    leftBtnInCarouselTwo.onclick = () => {
+        containerCarouselTwo.scrollBy({
+            left: -offsetWidthItemInCarouselTwo,
+            behavior: "smooth",
+        })
+
+        setTimeout(() => {
+            containerCarouselTwo.insertBefore(containerCarouselTwo.lastElementChild, containerCarouselTwo.firstElementChild)
+            containerCarouselTwo.scrollLeft = offsetWidthItemInCarouselTwo
+        }, 400)
+    }
 })

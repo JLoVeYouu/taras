@@ -1126,6 +1126,34 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 40px;
+    position: relative;
+}
+
+.left-btn-in-carousel-number-two {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: -25px;
+    top: 50%;
+    z-index: 1;
+    transform: rotateY(180deg);
+    background-color: var(--left-btn-in-first-carousel);
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.right-btn-in-carousel-number-two {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    z-index: 1;
+    background-color: var(--right-btn-in-first-carousel);
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
 }
 
 .container__with-number-title-and-subtitle {
@@ -1182,22 +1210,33 @@
 .container-with-img-text-subtitle-and-fullname {
     max-width: 1200px;
     margin: 50px 0 0 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .similar-container-with-img-text-subtitle-and-fullname-first {
-    max-width: 585px;
+    max-width: 592px;
     display: flex;
     flex-direction: column;
     padding: 0 30px;
+    flex: 0 0 auto;
 }
 
 .similar-container-with-img-text-subtitle-and-fullname-second {
-    max-width: 585px;
+    max-width: 592px;
     display: flex;
     flex-direction: column;
     padding: 0 30px;
+    flex: 0 0 auto;
+}
+
+.similar-container-with-img-text-subtitle-and-fullname-third {
+    max-width: 592px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    flex: 0 0 auto;
 }
  
 .similar-container-with-img {
@@ -1215,6 +1254,14 @@
     max-height: 592px;
     height: 100%;
 }
+
+.similar-container-with-img-girl-two {
+    object-fit: cover;
+    max-height: 592px;
+    height: 100%;
+}
+
+
 
 .similar-container-with-text {
     color: var(--similar-container-with-text-color);
@@ -2195,6 +2242,8 @@
         margin: 0 auto;
         padding: 0 32px;
     }
+
+
 
     .with-title-container {
         color: var(--with-title-container-color);
