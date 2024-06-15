@@ -6,7 +6,7 @@ let hidFirst = document.querySelector('.img-block-images-1-text-inside')
 let hidSecond = document.querySelector('.img-block-images-2-text-inside')
 let hidThird = document.querySelector('.img-block-images-3-text-inside')
 
-fatherBlock.addEventListener('mouseover', function (e) {
+function pointeroverEffect(e) {
     let target = e.target.classList
     if (target.contains('img-block-images-1-text-inside') || e.target.dataset.itemFirst) {
         hidFirst.style.opacity = 1;
@@ -18,8 +18,25 @@ fatherBlock.addEventListener('mouseover', function (e) {
         hidThird.style.opacity = 1;
         thirdImg.style.cssText = 'transform: scale(1.1); opacity: 0.4;'
     }
+}
+
+fatherBlock.addEventListener('pointerover', pointeroverEffect)
+
+window.addEventListener('resize', (e) => {
+    if (window.innerWidth <= 991) {
+        hidFirst.style.opacity = 1;
+        firstImg.style.cssText = 'transform: scale(1.1); opacity: 0.4;'
+        hidSecond.style.opacity = 1;
+        secondImg.style.cssText = 'transform: scale(1.1); opacity: 0.4;'
+        hidThird.style.opacity = 1;
+        thirdImg.style.cssText = 'transform: scale(1.1); opacity: 0.4;'
+
+        fatherBlock.removeEventListener('pointerover', pointeroverEffect)
+        fatherBlock.removeEventListener('pointerout', pointeroutEffect)
+    }
 })
-fatherBlock.addEventListener('mouseout', function (e) {
+
+function pointeroutEffect(e) {
     let target = e.target.classList
     if (target.contains('img-block-images-1-text-inside')) {
         hidFirst.style.opacity = 0;
@@ -31,7 +48,11 @@ fatherBlock.addEventListener('mouseout', function (e) {
         hidThird.style.opacity = 0;
         thirdImg.style.cssText = 'transform: scale(1); opacity: 1;'
     }
-})
+}
+
+fatherBlock.addEventListener('pointerout', pointeroutEffect)
+
+
 
 
 // scroll to .section__for-img //
@@ -94,7 +115,8 @@ const burgerBtn = document.querySelector('.section-nav-btn')
 const sectionMain = document.querySelector('.section__main-content')
 const burgerMenu = document.querySelector('.for__burger-menu')
 let isBurgerMenuOpen = false
-burgerBtn.onclick = () => {
+
+function burgerMenuClick() {
     if (isBurgerMenuOpen) {
         document.documentElement.style.cssText = '';
         burgerMenu.style.display = 'none'
@@ -106,6 +128,9 @@ burgerBtn.onclick = () => {
     }
     isBurgerMenuOpen = !isBurgerMenuOpen
 }
+
+burgerBtn.addEventListener('click', burgerMenuClick)
+
 function resizeWindow() {
     const pageWidth = window.innerWidth
     if (pageWidth > 991 && isBurgerMenuOpen) {
@@ -115,6 +140,7 @@ function resizeWindow() {
     }
 }
 window.addEventListener('resize', resizeWindow)
+
 
 
 
