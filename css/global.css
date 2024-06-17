@@ -145,6 +145,12 @@
     --text-in-burger-menu-last-child: #a3a3a3;
     --right-btn-in-first-carousel: #f6f6f6;
     --left-btn-in-first-carousel: #f6f6f6;
+    --main__about-me: #0a0a0f;
+    --title-text: rgb(255, 255, 255);
+    --title-under-text-with-home: rgb(186, 186, 186);
+    --title-under-text-with-about-me: rgb(238, 238, 238);
+    --main__about-me-inside-two-blocks-just-text: rgb(186, 186, 186);
+
 }
 
 img {

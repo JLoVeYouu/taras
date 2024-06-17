@@ -1,0 +1,118 @@
+@import 'index.css';
+
+
+/* main__about-me or first section on page */
+
+.main__about-me {
+    width: 100%;
+    height: 100%;
+    padding: 60px 40px 65px;
+    background-color: var(--main__about-me);
+}
+
+.main__about-me-inside-two-blocks {
+    display: flex;
+    gap: 200px;
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__about-me-inside-two-blocks-title {
+    padding: 0 15px;
+}
+
+.title-text {
+    color: var(--title-text);
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.title-under-text {
+    display: flex;
+    gap: 5px;
+}
+
+.title-under-text-with-home {
+    color: var(--title-under-text-with-home);
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    font-weight: 600;
+    font-family: 'Heebo', sans-serif;
+    margin-top: 25px;
+}
+.title-under-text-with-about-me {
+    color: var(--title-under-text-with-about-me);
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    font-weight: 600;
+    font-family: 'Heebo', sans-serif;
+    margin-top: 25px;
+    text-decoration: underline;
+}
+
+
+.main__about-me-inside-two-blocks-just-text {
+    color: var(--main__about-me-inside-two-blocks-just-text);
+    line-height: 25px;
+    font-size: 17px;
+    font-family: 'Heebo', sans-serif;
+    padding: 0 15px;
+    max-width: 600px;
+}
+
+/* main__section-with-img-and-section-text or second section on page */
+
+.main__section-with-img-and-section-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.main__section-with-img {
+
+}
+
+.section-with-img-image-with-man {
+    height: 100%;
+    object-fit: cover;
+}
+
+.main__section-text {
+    padding: 130px 30px;
+}
+
+.main__section-text-inside {
+
+}
+
+.main__section-text-inside-with-01 {
+
+}
+
+.main__section-text-inside-with-who-am-i {
+
+
+}
+
+.main__section-text-inside-with-text {
+
+}
+
+.main__section-text-inside-with-another-text {
+
+}
+
+.main__section-text-inside-with-slesh-and-text {
+
+}
+
+.main__section-text-inside-with-second-another-text {
+
+}
