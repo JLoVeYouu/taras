@@ -72,7 +72,8 @@
 .main__section-with-img-and-section-text {
     width: 100%;
     height: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .main__section-with-img {
@@ -86,33 +87,185 @@
 
 .main__section-text {
     padding: 130px 30px;
+    background-color: #141619;
 }
 
 .main__section-text-inside {
-
+    display: flex;
+    flex-direction: column;
+    max-width: 570px;
+    margin: 0 auto;
 }
 
 .main__section-text-inside-with-01 {
-
+    color: rgb(238, 238, 238);
+    font-size: 12px;
+    font-family: Heebo, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2.4px;
+    line-height: 20px;
+    max-width: 570px;
+    text-align: left;
 }
 
+
 .main__section-text-inside-with-who-am-i {
-
-
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: "Space Grotesk", sans-serif;
+    line-height: 72px;
+    letter-spacing: 1.2px;
+    font-size: 60px;
+    max-width: 570px;
+    margin-top: 20px;
 }
 
 .main__section-text-inside-with-text {
-
+    color: rgb(186, 186, 186);
+    font-size: 19px;
+    font-family: Heebo, sans-serif;
+    line-height: 28.5px;
+    margin-top: 25px;
+    max-width: 570px;
 }
 
 .main__section-text-inside-with-another-text {
-
+    color: rgb(139, 139, 139);
+    font-size: 17px;
+    font-family: Heebo, sans-serif;
+    line-height: 25px;
+    margin-top: 25px;
+    max-width: 570px;
 }
 
 .main__section-text-inside-with-slesh-and-text {
+    color: rgb(255, 255, 255);
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    max-width: 570px;
+    display: flex;
+    gap: 10px;
+}
 
+.main__section-text-inside-with-slesh-and-text-underline-block-links {
+    color: inherit;
+}
+
+.main__section-text-inside-with-slesh-and-text-underline-block-links:hover {
+    text-decoration: underline;
 }
 
 .main__section-text-inside-with-second-another-text {
+    color: rgb(139, 139, 139);
+    font-size: 17px;
+    line-height: 25px;
+    font-family: Heebo, sans-serif;
+    margin-top: 20px;
+    max-width: 570px;
+}
 
+/* section__small-row-with-helpful-text */
+
+.section__small-row-with-helpful-text {
+    padding: 15px 0;
+    background-color: #141619;
+}
+
+.section__small-row-with-helpful-text-just-text {
+    color: rgba(255, 255, 255, 0.17);
+    line-height: 38px;
+    letter-spacing: 0.64px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+/* section__which-have-two-images-and-many-text-or-just-section-02 */
+
+.section__which-have-two-images-and-many-text-or-just-section-02 {
+    padding: 130px 40px 65px;
+}
+
+.just-section-02-with-two-blocks {
+    max-width: 1200px;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+
+.with-two-blocks-it-is-have-img-and-little-bit-text {
+    padding-right: 30px;
+}
+
+.it-is-have-img-and-little-bit-text-text-02 {
+    color: rgb(60, 62, 66);
+    line-height: 20px;
+    letter-spacing: 2.4px;
+    font-weight: 600;
+    font-size: 12px;
+    font-family: Heebo, sans-serif;
+}
+
+.it-is-have-img-and-little-bit-text-just-text {
+    line-height: 38px;
+    color: rgb(10, 10, 15);
+    font-size: 32px;
+    font-family: "Space Grotesk", sans-serif;
+    letter-spacing: 0.64px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.it-is-have-img-and-little-bit-text-only-img {
+    margin-top: 25px;
+}
+
+.little-bit-text-only-img-image {
+    max-height: 580px;
+    object-fit: cover;
+    object-position: 58.32% 0%;
+}
+
+.with-two-blocks-it-is-have-img-and-a-lot-of-text {
+    padding-left: 30px;
+}
+
+.it-is-have-img-and-a-lot-of-text-just-many-text {
+    color: rgb(124, 124, 124);
+    line-height: 25px;
+    font-family: Heebo, sans-serif;
+    font-size: 17px;
+}
+
+.it-is-have-img-and-a-lot-of-text-just-another-many-text {
+    color: rgb(124, 124, 124);
+    line-height: 25px;
+    font-family: Heebo, sans-serif;
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.it-is-have-img-and-a-lot-of-text-just-img-girl-with-strong-man {
+    margin-top: 20px;
+}
+
+.a-lot-of-text-just-img-girl-with-strong-man-image {
+    max-height: 365px;
+}
+
+.it-is-have-img-and-a-lot-of-text-just-slightly-text {
+    color: rgb(10, 10, 15);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.64px;
+    font-family: "Space Grotesk", sans-serif;
+    margin-top: 20px;
 }
