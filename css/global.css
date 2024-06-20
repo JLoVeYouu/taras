@@ -150,6 +150,33 @@
     --title-under-text-with-home: rgb(186, 186, 186);
     --title-under-text-with-about-me: rgb(238, 238, 238);
     --main__about-me-inside-two-blocks-just-text: rgb(186, 186, 186);
+    --main__section-text: #141619;
+    --main__section-text-inside-with-01: rgb(238, 238, 238);
+    --main__section-text-inside-with-who-am-i: rgb(255, 255, 255);
+    --main__section-text-inside-with-text: rgb(186, 186, 186);
+    --main__section-text-inside-with-another-text: rgb(139, 139, 139);
+    --main__section-text-inside-with-slesh-and-text: rgb(255, 255, 255);
+    --main__section-text-inside-with-second-another-text: rgb(139, 139, 139);
+    --main__section-text-inside-btn-block-button-color: rgb(10, 10, 15);
+    --main__section-text-inside-btn-block-button-background-color: rgb(255, 255, 255);
+    --main__section-text-inside-btn-block-button-border-color: rgb(255, 255, 255);
+    --section__small-row-with-helpful-text: #141619;
+    --section__small-row-with-helpful-text-just-text: rgba(255, 255, 255, 0.17);
+    --it-is-have-img-and-little-bit-text-text-02: rgb(60, 62, 66);
+    --it-is-have-img-and-little-bit-text-just-text: rgb(10, 10, 15);
+    --it-is-have-img-and-a-lot-of-text-just-many-text: rgb(124, 124, 124);
+    --it-is-have-img-and-a-lot-of-text-just-another-many-text: rgb(124, 124, 124);
+    --it-is-have-img-and-a-lot-of-text-just-slightly-text: rgb(10, 10, 15);
+    --section__where-write-train-when-or-just-03-with-many-blocks: #141619;
+    --just-03-with-many-blocks-this-block-have-03-text: rgb(186, 186, 186);
+    --just-03-with-many-blocks-this-block-have-a-lot-of-sentence: rgb(255, 255, 255);
+    --just-03-with-many-blocks-this-block-have-a-little-bit-text: rgb(186, 186, 186);
+    --this-block-have-two-btns-white-and-dark-text-btn-bacground-color: #ffff;
+    --this-block-have-two-btns-white-and-dark-text-btn-border-color: rgb(255, 255, 255);
+    --this-block-have-two-btns-white-and-dark-text-btn-color: rgb(10, 10, 15);
+    --this-block-have-two-btns-dark-and-white-text-btn-background-color: #141619;
+    --this-block-have-two-btns-dark-and-white-text-btn-borde-color: rgb(255, 255, 255);
+    --this-block-have-two-btns-dark-and-white-text-btn-color: rgb(255, 255, 255);
 
 }
 

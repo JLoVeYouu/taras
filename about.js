@@ -27,3 +27,15 @@ function resizeWindow() {
     }
 }
 window.addEventListener('resize', resizeWindow)
+
+
+const btnProgramsIn01Section = document.querySelector('.main__section-text-inside-btn-block-button')
+
+
+btnProgramsIn01Section.onpointerenter = () => {
+    btnProgramsIn01Section.style.cssText = 'background-color: rgb(221 221 221); border: rgb(0 0 0) 2px solid;'
+}
+
+btnProgramsIn01Section.onpointerleave = () => {
+    btnProgramsIn01Section.style.cssText = 'background-color: var(--main__section-text-inside-btn-block-button-background-color); border: var(--main__section-text-inside-btn-block-button-border-color) 2px solid';
+}
